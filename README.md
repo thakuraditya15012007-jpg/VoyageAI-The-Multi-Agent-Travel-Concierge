@@ -31,3 +31,25 @@ Python 3.10+
 A Google Gemini API Key (Free tier works)
 Git installed
 Installation Steps
+1.Clone the repository:
+``` bash
+git clone [https://github.com/thakuraditya15012007-jpg/VoyageAI-The-Multi-Agent-Travel-Concierge.git](https://github.com/thakuraditya15012007-jpg/VoyageAI-The-Multi-Agent-Travel-Concierge.git)
+cd VoyageAI-The-Multi-Agent-Travel-Concierge
+```
+Install dependencies:
+``` bash
+pip install -r requirements.txt
+```
+Set your API Key:
+Linux/Mac:
+``` bash
+export GEMINI_API_KEY="AIzaSy..."
+```
+Windows PowerShell:
+``` bash
+$env:GEMINI_API_KEY="AIzaSy..."
+```
+Run the app:
+``` bash
+python app.py
+```
